@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>VAP‑Homemade‑Foods — Idly Podi & Sathumavu (Health Mix)</title>
+  <meta name="description" content="VAP‑Homemade‑Foods brings traditional Idly Podi and Sathumavu (Health Mix) made in small batches with clean ingredients, retail‑ready packaging, and FSSAI compliance." />
+  <meta name="theme-color" content="#0a7b34" />
+  <style>
+    :root{
+      --primary:#0a7b34; --accent:#ff8c00; --dark:#1f2937; --muted:#6b7280; --paper:#ffffff; --soft:#f7faf7;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Noto Sans',sans-serif;color:var(--dark);background:var(--paper)}
+    a{color:inherit}
+    .container{max-width:1100px;margin:0 auto;padding:0 16px}
+    .bar{background:#0a7b34;color:#fff;font-weight:600;text-align:center;padding:8px 12px;font-size:14px}
+    header{position:sticky;top:0;background:#fff;border-bottom:1px solid #eee;z-index:10}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+    .brand{display:flex;gap:10px;align-items:center;text-decoration:none}
+    .logo{width:40px;height:40px;border-radius:8px;background:linear-gradient(135deg,var(--primary),#52b788);display:grid;place-items:center;color:#fff;font-weight:800}
+    .nav a{font-weight:600;text-decoration:none;margin:0 8px;color:var(--dark)}
+    .hero{display:grid;grid-template-columns:1fr;gap:24px;padding:30px 0}
+    .hero h1{margin:0;font-size:2rem;line-height:1.2}
+    .hero p{color:var(--muted)}
+    .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}
+    .btn{background:var(--primary);color:#fff;border:none;border-radius:10px;padding:12px 18px;font-weight:700;text-decoration:none;display:inline-block}
+    .btn.alt{background:var(--accent)}
+    .badges{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+    .badge{border:1px solid #c7ead6;background:#f1fff6;color:#0a7b34;border-radius:999px;padding:6px 10px;font-size:13px}
+    .section{padding:36px 0}
+    .section h2{margin:0 0 12px}
+    .muted{color:var(--muted)}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+    .card{border:1px solid #eee;border-radius:14px;padding:16px;background:#fff}
+    .card img{width:100%;border-radius:10px;border:1px solid #eee;background:#fafafa;height:180px;object-fit:cover}
+    .price{font-weight:800}
+    .grid-2{display:grid;grid-template-columns:1fr;gap:24px}
+    .pillbar{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 10px}
+    .pill{background:#f8fafc;border:1px solid #e2e8f0;border-radius:999px;padding:4px 10px;font-size:12px;color:#334155}
+    .list{padding-left:18px}
+    footer{border-top:1px solid #eee;padding:24px 0;margin-top:24px;color:var(--muted);font-size:14px}
+    @media (min-width:900px){
+      .hero{grid-template-columns:1.2fr 1fr}
+      .grid-2{grid-template-columns:1fr 1fr}
+    }
+  </style>
+</head>
+<body>
+  <!-- Announcement bar, like many D2C food stores -->
+  <div class="bar">Free Shipping on all Orders above ₹499 • COD available in select pincodes</div>
+
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="VAP‑Homemade‑Foods home">
+        <div class="logo">VAP</div>
+        <strong>VAP‑Homemade‑Foods</strong>
+      </a>
+      <nav aria-label="Primary">
+        <a href="#products">Products</a>
+        <a href="#collections">Collections</a>
+        <a href="#about">About</a>
+        <a href="#quality">Quality</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home" class="container">
+    <!-- HERO -->
+    <section class="hero">
+      <div>
+        <h1>Traditional Taste. Retail‑Ready Quality.</h1>
+        <p>Freshly prepared <strong>Idly Podi</strong> and <strong>Sathumavu (Health Mix)</strong> in small batches with premium ingredients, clean labeling, and barcoded packs suitable for modern retail.</p>
+        <div class="badges">
+          <span class="badge">FSSAI: <strong>XXXXXXXXXXXXXXX</strong></span>
+          <span class="badge">GSTIN: <strong>XXABCDE1234X1Z1</strong></span>
+          <span class="badge">Manufacturing: <strong>Chennai / Bengaluru</strong></span>
+        </div>
+        <div class="cta">
+          <a class="btn" href="#contact">Enquire for DMart</a>
+          <a class="btn alt" href="#specs">Download Spec Sheets (PDF)</a>
+        </div>
+        <div class="pillbar">
+          <span class="pill">No Artificial Colours</span>
+          <span class="pill">No Artificial Flavours</span>
+          <span class="pill">Small‑Batch</span>
+          <span class="pill">Hygienic Processing</span>
+        </div>
+      </div>
+      <div>
+        <img src="https://images.unsplash.com/photo-1606081430924-b6480765d470?q=80&w=1200&auto=format&fit=crop" alt="VAP‑Homemade‑Foods packs on a clean background (replace with your product photo)" style="width:100%;border-radius:12px;border:1px solid #eee">
+      </div>
+    </section>
+
+    <!-- FEATURED PRODUCTS (inspired by product grid layout on reference) -->
+    <section id="products" class="section">
+      <h2>Featured Products</h2>
+      <p class="muted">Best‑sellers crafted for authentic, everyday taste.</p>
+      <div class="cards">
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1625944526803-026b064b7a03?q=80&w=1200&auto=format&fit=crop" alt="Idly Podi pack (replace with your image)">
+          <h3>Idly Podi — 200 g</h3>
+          <p class="muted">Ingredients: Dal, Red Chilli, Sesame, Hing, Rock Salt. Shelf life: 6–9 months.</p>
+          <p><span class="price">₹ 129</span> • EAN: 8901234567890</p>
+          <div class="cta">
+            <a class="btn" href="#contact">Bulk Enquiry</a>
+            <a class="btn alt" href="#specs">Spec Sheet</a>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1625944839573-5d0d26ab9dd2?q=80&w=1200&auto=format&fit=crop" alt="Sathumavu pack (replace with your image)">
+          <h3>Sathumavu (Health Mix) — 500 g</h3>
+          <p class="muted">Ingredients: Millets, Pulses, Nuts, Jaggery. Shelf life: 6–9 months.</p>
+          <p><span class="price">₹ 239</span> • EAN: 8901234567883</p>
+          <div class="cta">
+            <a class="btn" href="#contact">Bulk Enquiry</a>
+            <a class="btn alt" href="#specs">Spec Sheet</a>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1604908554027-91f7cf264999?q=80&w=1200&auto=format&fit=crop" alt="Combo packs (replace with your image)">
+          <h3>Breakfast Combo</h3>
+          <p class="muted">Idly Podi (200 g) + Sathumavu (500 g).</p>
+          <p><span class="price">₹ 339</span></p>
+          <div class="cta">
+            <a class="btn" href="#contact">Bulk Enquiry</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- COLLECTIONS / CATEGORIES -->
+    <section id="collections" class="section" style="background:var(--soft);border:1px solid #eef2ee">
+      <h2>Explore Collections</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Powders & Podi</h3>
+          <p class="muted">Idly Podi, Curry Powders, Chutney Powders.</p>
+          <a class="btn" href="#products">View</a>
+        </div>
+        <div class="card">
+          <h3>Health Mixes</h3>
+          <p class="muted">Sathumavu variants & millet‑based mixes.</p>
+          <a class="btn" href="#products">View</a>
+        </div>
+        <div class="card">
+          <h3>Combos</h3>
+          <p class="muted">Value bundles for families & gifting.</p>
+          <a class="btn" href="#products">View</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUALITY & COMPLIANCE -->
+    <section id="quality" class="section">
+      <h2>Quality & Compliance</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Licences</h3>
+          <ul class="list">
+            <li>FSSAI Licence / Registration: <strong>XXXXXXXXXXXXXXX</strong></li>
+            <li>GSTIN: <strong>XXABCDE1234X1Z1</strong></li>
+          </ul>
+          <p class="muted">We follow applicable FSSAI guidelines for food safety and labeling.</p>
+          <!-- Replace # with your PDF links -->
+          <div class="cta">
+            <a class="btn" id="specs" href="#">FSSAI Certificate (PDF)</a>
+            <a class="btn alt" href="#">Company Profile (PDF)</a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Packing & Trade</h3>
+          <ul class="list">
+            <li>Retail‑ready barcodes (EAN) & batch printing</li>
+            <li>Outer case labels; standard case qty per SKU</li>
+            <li>Monthly capacity: <strong>XXXX packs</strong></li>
+            <li>Lead time: <strong>XX days</strong></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section" style="background:#fafafa;border:1px solid #eee">
+      <h2>About VAP‑Homemade‑Foods</h2>
+      <p class="muted">
+        We’re a small family‑run kitchen focused on authentic flavors and clean ingredients. Every batch is roasted,
+        ground, and packed with care — bringing the same homemade goodness we serve our family to your table.
+      </p>
+      <div class="pillbar">
+        <span class="pill">Small‑Batch</span><span class="pill">Carefully Sourced</span><span class="pill">Made with Love</span>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="grid-2">
+        <div class="card">
+          <p><strong>VAP‑Homemade‑Foods</strong><br>
+          Attn: Arunprasath E (VAP)<br>
+          Address line 1, Locality,<br>
+          City, State, Pincode<br>
+          Phone: <a href="tel:+91XXXXXXXXXX">+91 XXXXX XXXXX</a><br>
+          Email: <a href="mailto:hello@vapfoods.in">hello@vapfoods.in</a></p>
+          <p class="muted">Preferred: DMart Tuesday Vendor Walk‑in / scheduled call.</p>
+          <div class="cta">
+            <a class="btn" href="mailto:hello@vapfoods.in?subject=DMart%20Enquiry%20-%20VAP">Email Us</a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Quick Links</h3>
+          <ul class="list">
+            <li><a href="#products">Products</a></li>
+            <li><a href="#quality">Quality & Compliance</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+          <p class="muted">Track Order (if you add ecommerce later) → <a href="#">/track-order</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div>© <span id="year"></span> VAP‑Homemade‑Foods. All rights reserved.</div>
+      <div class="muted">This website is for product information and B2B enquiries.</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
